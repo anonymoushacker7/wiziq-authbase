@@ -1,6 +1,6 @@
 {
   "name": "wiziq-authbase",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "authabase of wiziq for node js",
   "main": "wiziq-authbase.js",
   "keywords": [
@@ -25,14 +25,13 @@
     "urlencode": "^1.1.0"
   },
    "files": [
-    "LICENSE-MIT.txt",
-    "base64.js"
+    "LICENSE-MIT.txt"
   ],
 
   "maintainers": [
     {
-      "name": "mathias",
-      "email": "mathias@qiwi.be"
+      "name": "Mohseen Khan",
+      "email": "mohseenk@fht.co.in"
     }
-  ],
+  ]
 }
