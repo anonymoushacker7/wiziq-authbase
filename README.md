@@ -1,7 +1,20 @@
 # wiziq-authbase
 
-## Install
+## Important Instruction
+```txt 
+Step to test the Package :
+1) create a project (say demo)
+2) create a app.js  into that and paste below Usage code
 
+then 
+
+open up your project into Terminal / Command prompt and run the server 
+$ node app.js  // Linux or mac
+> node app.js  //window
+
+```
+
+## Install
 ```bash
 $ npm install wiziq-authbase
 ```
