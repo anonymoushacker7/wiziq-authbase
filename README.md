@@ -27,6 +27,7 @@ var hashkey = wiziqAuthbase.generateSignature(method,secretAcessKey , access_key
 
 
 //Note :  in this example we used request package but you can use your logic to post this parameter
+// Make sure you have installed request package from the npmjs.com as a node module
 var request = require('request');
 var  requestParameters = {
           access_key : access_key,
@@ -52,11 +53,13 @@ request.post(options, function (error, response, body) {
                   console.log(body)
               }
 })
+```
 
 
 
+## Response 
 ```xml
-// run this cammand and you will see the XML reponse from in the termial
+// you will see the XML reponse
 <rsp status="ok" call_id="0ba583afe4da">
   <method>create_perma_class</method>
   <create_perma_class status="true">
@@ -70,10 +73,6 @@ request.post(options, function (error, response, body) {
     </perma_class_details>
   </create_perma_class>
 </rsp>
-
-
-
-
 ```
 
 
