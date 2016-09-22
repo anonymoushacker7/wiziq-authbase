@@ -1,0 +1,38 @@
+{
+  "name": "wiziq-authbase",
+  "version": "1.0.0",
+  "description": "authabase of wiziq for node js",
+  "main": "wiziq-authbase.js",
+  "keywords": [
+    "wiziq",
+    "wiziq-authbase",
+    "wiziq-signature",
+    "virtual-classroom"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Mohseen Khan",
+    "url": "http://fht.co.in/"
+  },
+
+  "license": "MIT",
+
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "request": "^2.75.0",
+    "urlencode": "^1.1.0"
+  },
+   "files": [
+    "LICENSE-MIT.txt",
+    "base64.js"
+  ],
+
+  "maintainers": [
+    {
+      "name": "mathias",
+      "email": "mathias@qiwi.be"
+    }
+  ],
+}
