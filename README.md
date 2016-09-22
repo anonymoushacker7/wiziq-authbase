@@ -27,7 +27,8 @@ var hashkey = wiziqAuthbase.generateSignature(method,secretAcessKey , access_key
 
 
 //Note :  in this example we used request package but you can use your logic to post this parameter
- var  requestParameters = {
+var request = require('request');
+var  requestParameters = {
           access_key : access_key,
           timestamp : times ,
           method : method,
