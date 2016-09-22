@@ -10,7 +10,7 @@ $ npm install wiziq-authbase
 
 ```js
 
-var wiziq-authbase = require('wiziq-authbase');
+var wiziqAuthbase = require('wiziq-authbase');
 
 
 // Define your Key (WizIQ)
